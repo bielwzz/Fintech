@@ -1,0 +1,169 @@
+@charset "ISO-8859-1";
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-color: #0d1b2a;
+    color: var(--bg-pink);
+}
+:root {
+    --bg-pink: #e0e1dd;
+    --bg-white: #1b263b;
+    --margin-top: 60px;
+}
+
+button:focus {
+    box-shadow: 0;
+}
+
+
+.logo-text {
+    font-size: 1.8rem;
+    color: var(--bg-pink);
+    font-weight: 600;
+    font-size: 32px;
+    
+}
+.logo-text:hover{
+    color: var(--bg-pink);
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.nav-item a {
+    color: var(--bg-pink);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.nav-link:hover{
+    color: var(--bg-pink);
+    transition: .2s;
+    transform: scale(1.1);
+}
+.user{
+    color: var(--bg-pink);
+}
+.user:hover{
+    color: var(--bg-pink);
+}
+
+.my-title {
+    color: var(--bg-pink);
+    font-weight: 600;
+    font-size: 32px;;
+}
+.eye{
+    padding: 20px;
+}
+.eye:hover{
+    transform: scale(1.5);
+    transition: .3s;
+}
+.saldo {
+    font-weight:600;
+    color: var(--bg-pink);
+}
+
+.sobre {
+    min-height: 75vh;
+}
+.navbar-toggler{
+    color: var(--bg-pink);
+    border-color: var(--bg-pink);
+}
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-gray);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.card{
+    background-color: var(--bg-pink);
+    color: var(--bg-white);
+    border-radius:40px;
+}
+
+.card >.icon:hover {
+    transition: .2s;
+    transform: scale(1.5);
+}
+
+.edit-icon{
+    font-size: 25px;
+}
+.edit-icon:hover{
+    transition: .2s;
+    transform: scale(1.5);
+}
+
+.fonte{
+    font-weight: 600;
+}
+
+.conteudo{
+    border-bottom: 2px solid;
+}
+
+/* ----------------Login-------------- */
+.conteudo-login{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 12%;
+    width: 100%;
+    height: 100vh;
+}
+.form-label {
+    color: var(--bg-white)
+}
+.form-text {
+    color: var(--bg-pink);
+}
+.form-check-label{
+    color: var(--bg-white);
+}
+.btn-hover{
+    background-color: var(--bg-pink);
+}
+
+.btn-primary{
+    background-color: var(--bg-gray);
+    border: #ad0000;
+}
+.btn-primary:hover{
+    background-color: var(--bg-white);
+}
+.lembrete-card{
+    display: flex;
+    justify-content:left;
+    gap: 30px;
+
+}
+.card{
+    border-radius: 15px;
+    min-width: 200px;
+}
+.form-group{
+    width: 500px;
+}
+.add {
+    display: flex;
+    flex-direction: column; /* Para alinhar os itens verticalmente dentro da div */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+
+@media(max-width:959px) {
+    #sobre{
+        text-align: center;
+    }
+}
